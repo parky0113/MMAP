@@ -14,7 +14,7 @@ The Report Generator Application is a versatile graphical user interface (GUI) p
   5. Entity
   6. Supplier Name
   7. ReceivedDate
-  These columns are only hard coded column names, so you cannot modify in master data.
+  <br>These columns are only hard coded column names, so you cannot modify in master data.
   However, you can reorder columns whatever you like.
 - If it does not respond for more than two minute, try close the program and restart the process.
 

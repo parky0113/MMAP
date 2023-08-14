@@ -4,6 +4,20 @@
 
 The Report Generator Application is a versatile graphical user interface (GUI) program designed to simplify the process of importing, processing, and generating formatted Excel reports. Whether you're a financial analyst, data manager, or business professional, this application streamlines your workflow by providing an intuitive interface to handle data manipulation and report creation tasks.
 
+## IMPORTANT
+- Configuration.xlsx file can be edited but it has to be with the exe file.
+- Columns can be added or removed from master data(SpendConsole), but following columns must be present:
+  1. Invoice Date
+  2. IsCreditMemo
+  3. Comments
+  4. Status
+  5. Entity
+  6. Supplier Name
+  7. ReceivedDate
+  These columns are only hard coded column names, so you cannot modify in master data.
+  However, you can reorder columns whatever you like.
+- If it does not respond for more than two minute, try close the program and restart the process.
+
 ## Key Features
 
 - **Data Import:** Easily import Excel data files containing invoice and supplier information through a user-friendly interface.
@@ -14,7 +28,7 @@ The Report Generator Application is a versatile graphical user interface (GUI) p
 
 ## Getting Started
 
-1. **Installation:** The application requires no installation. Simply run the provided script to launch the GUI interface.
+1. **Installation:** The application requires no installation. Simply run the provided exe to launch the GUI interface.
 
 2. **Data Import:** Use the "Import Data OR Drag and Drop" button to select an Excel file containing invoice data. Alternatively, drag and drop a valid .xlsx file onto the application window.
 
@@ -26,13 +40,13 @@ The Report Generator Application is a versatile graphical user interface (GUI) p
 
 ## Enhance Your Workflow
 
-The Report Generator Application empowers users to streamline their data manipulation and report generation tasks. Whether you need to analyze financial data, manage invoices, or create customized reports for stakeholders, this application provides the tools you need to enhance your workflow and increase productivity.
+The Report Generator Application empowers users to streamline their data manipulation and report generation tasks. Whether you need to analyse AP data, manage invoices, or create customised reports for stakeholders, this application provides the tools you need to enhance your workflow and increase productivity.
 
 ## Author and Version
 
 - **Author:** Sean(Sunghyun) Park
-- **Version:** 0.9
-- **Last Updated:** 10-08-2023
+- **Version:** 1.1
+- **Last Updated:** 14-08-2023
 
 ## Support and Feedback
 
